@@ -1,10 +1,10 @@
 package ininheritance;
 
-// »ı¼ºÀÚ°¡ ÀÖ´Â ºÎ¸ğ Å¬·¡½º
+// ìƒì„±ìê°€ ìˆëŠ” ë¶€ëª¨ í´ë˜ìŠ¤
 class cal3{
 	public int v1;
 	public int v2;
-	public cal3(int v1, int v2) {
+	public cal3(int v1, int sdfsdfsdfsdf2) {
 		this.v1 = v1;
 		this.v2 = v2;
 	}
@@ -17,7 +17,7 @@ class cal3{
 
 class cal4 extends cal3{
 
-	// super() : »ı¼ºÀÚ°¡ ÀÖ´Â Å¬·¡½º »ó¼Ó¹Ş¾Ò´Ù¸é, ÀÚ½Ä Å¬·¡½ºµµ »ı¼ºÀÚ¸¦ ¸¸µé¾î¼­ ¸¸µå½Ã ºÎ¸ğ Å¬·¡½º¸¦ È£ÃâÇØ¾ß ÇÑ´Ù.
+	// super() : ìƒì„±ìê°€ ìˆëŠ” í´ë˜ìŠ¤ ìƒì†ë°›ì•˜ë‹¤ë©´, ìì‹ í´ë˜ìŠ¤ë„ ìƒì„±ìë¥¼ ë§Œë“¤ì–´ì„œ ë§Œë“œì‹œ ë¶€ëª¨ í´ë˜ìŠ¤ë¥¼ í˜¸ì¶œí•´ì•¼ í•œë‹¤.
     public cal4(int v1, int v2) {
     	super(v1, v2);
 	}
